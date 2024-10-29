@@ -33,7 +33,7 @@
 #     print("thank-you")    
 
 ##0015
-# color= input("Enter your fsvorite color: ")  
+# color= input("Enter your favorite color: ")  
 
 # if color=="red" or color=="RED" or color=="Red":
 #      print("i like red too")
@@ -41,7 +41,7 @@
 #      print("i dont like ", color)    
 
 ##0014
-#nums= int(input("ENTER number bettween 10 and 20: "))
+#nums= int(input("ENTER number between 10 and 20: "))
 #if((nums>=10 )and (nums<=20)):
 #     print(" thank-you")
 # else:
