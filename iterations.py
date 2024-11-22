@@ -81,13 +81,13 @@
 # print(num)
 
 
-user_input= int(input("Enter a number between 10 and 20: "))
-while((user_input<10) or (user_input>20)):
-    if(user_input < 10):
-        print("too low")
-        #user_input=int(input("enter guess again: "))
-    if(user_input > 20):
-        print("too high ")    
-        #user_input=int(input("enter guess again: "))
-    user_input=int(input("enter guess again"))   
-print
+# user_input= int(input("Enter a number between 10 and 20: "))
+# while((user_input<10) or (user_input>20)):
+#     if(user_input < 10):
+#         print("too low")
+#         #user_input=int(input("enter guess again: "))
+#     if(user_input > 20):
+#         print("too high ")    
+#         #user_input=int(input("enter guess again: "))
+#     user_input=int(input("enter guess again"))   
+

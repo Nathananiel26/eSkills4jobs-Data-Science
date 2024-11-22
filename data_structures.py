@@ -11,7 +11,7 @@
 # print(list_nums)
 
 ## alternative
-list_num_2 = [5, 7, 8]
+#list_num_2 = [5, 7, 8]
 # print(list_num_2)
 
 ##accessing the elements within a list
@@ -52,7 +52,7 @@ list_num_2 = [5, 7, 8]
 # print(house_items.index("boys"))
 
 #example 71-------try your hands on it-------
-# sports_list= ["football" , "volleyball"]
+# sports_list= [" "]
 # user_input = input("which sport do you like: ")
 # for each_sport in sports_list:    
 #      new_list = sports_list.append(user_input)
@@ -60,14 +60,28 @@ list_num_2 = [5, 7, 8]
 #      new_input = input("enter your sport")
 
 #------------assignment-----------------------
-# sports_list = ["football", "volleyball"]
+# sports_list = []
 # user_input = input("Which sport do you like? ")
 # sports_list.append(user_input)  # Add user input to the list once
 
 # print("Updated sports list:")
 # for each_sport in sports_list:
-#     print(sports_list[each_sport])  # Print each sport in the updated list
-#     user_input= input("enter name : ")
+#     print(each_sport)  # Print each sport in the updated list
+# user_input= input("enter another sport name : ")
+
+# Initialize an empty list
+sports_list = []
+
+
+user_input = input("Which sport do you like? ")
+sports_list.append(user_input)
+
+print(sports_list)
+# for each_sport in sports_list:
+#     print(each_sport) 
+
+user_input = input("Enter another sport (or type 'done' to finish): ")
+
 
 
 
@@ -135,19 +149,19 @@ list_num_2 = [5, 7, 8]
 # divide = division(50,5)
 # print(f"the division of the two numbers is {divide}")
 
-def user_inputs():
-    user_input_1 = int(input("enter the sales amount: "))
-    user_input_2 = float(input("enter the commission rate "))
-    return user_input_1 , user_input_2
+# def user_inputs():
+#     user_input_1 = int(input("enter the sales amount: "))
+#     user_input_2 = float(input("enter the commission rate "))
+#     return user_input_1 , user_input_2
 
-num_1 , num_2 = user_inputs()
+# num_1 , num_2 = user_inputs()
 
-def sales_commission(num_1,num_2):
-    result = num_1 * num_2
-    return result
+# def sales_commission(num_1,num_2):
+#     result = num_1 * num_2
+#     return result
     
-commission = sales_commission(num_1,num_2) 
-print(f"your sale commission is : {commission}")
+# commission = sales_commission(num_1,num_2) 
+# print(f"your sale commission is : {commission}")
 
 
 ####-----------------------------------------------
@@ -164,12 +178,16 @@ print(f"your sale commission is : {commission}")
 # pip install pandas== 2.0.0 (used to install a specific version of a package)
 
 ##--------------------Virtual Environment----------------
-#python -m venv myenv (this creates a virtual environment in your repository)
 #clone your repository
 # create your virtual environment (python -m venv myenv)
 #to check if the environment is activated (source myenv/Scripts/activate)
 # you can install your packages
+#             
+
+
 # jupyter-notebook(to start the package)
 #shutdown the kernel in the browser
-# use ctrl in the terminal to interrupt
+# use ctrl-c in the terminal to interrupt
 #use "deactivate" in terminal to close the environment
+
+##---------loading and data processing--------------------------

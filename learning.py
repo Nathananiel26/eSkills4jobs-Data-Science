@@ -91,8 +91,4 @@
 # do not want it included, don’t add it to the total. After they have entered all five numbers,
 # display the total.
 total = 0
-user_input = int(input("enter five numbers : "))
-for each_input in range(1,6):
-    print("the number you entered is ",user_input)
-    next_number = int(input('pls enter next num : '))
-
+user_input = int(input("enter five numbers"))
